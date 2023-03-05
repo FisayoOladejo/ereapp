@@ -7,7 +7,6 @@ Each membe can conviniently transact at thier respective location
 A **Landing Page** that is easy to understand for members
 
 **Author:**
-
 Fisayo Oladejo
 Process Engineer &
 FrontEnd Developer
