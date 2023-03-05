@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+    .background-color{
+        width: 100%;
+        height: 100%;
+        color:bisque; 
+    }
+
+    nav{
+    background-color:aqua;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    position: relative;
+    font-weight: bolder; 
+} 
+
+.logo{
+    height: 60px;
+    border-radius: 50%;
+    width: 60px; 
+    margin-left: 30px; 
+    cursor: pointer;
+}
+
+.user-pic{
+    height: 60px;
+    border-radius: 50%;
+    width: 60px; 
+    margin-left: -10%; 
+    cursor: pointer;  
+}
+
+
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 15px 50px;
+   
+}
+nav ul li:hover{
+    color: antiquewhite;
+    
+  }
+
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+ }
+
+.nav-  list{
+    list-style-type: none;
+    
+   
+}
+
+.nav-list .list-item{
+    display: inline-block; 
+    padding: 20px 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:black;
+}
+
+
+.sub-profile-wrap{
+    position: absolute;
+    top: 100%;
+    right: 6%;
+    width: 320px;
+    color: black; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-profile-wrap.open-profile{
+    max-height: 400px;
+}
+
+.sub-profile{
+    background:#ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h4{
+    font-weight: 500px;
+}
+
+.user-info img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-profile hr{
+    border: 10px;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-profile-link img{
+    width: 40px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+
+.sub-profile-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-profile-link p{
+    width: 100%;
+}
+
+.sub-profile-link span{
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+
+.sub-profile-link:hover span{
+    transform: translateX(5px);
+}
+
+.sub-profile-link:hover p{
+    font-weight: 600;
+}
+
+.sub-profile-wrap1{
+    position: absolute;
+    top: 100%;
+    right: 58%;
+    width: 320px;
+    color: black; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-profile-wrap1.open-profile{
+    max-height: 400px;
+}
+
+.sub-profile-1{
+    background: #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h4{
+    font-weight: 500px;
+}
+
+.user-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+
+.sub-profile1-link img{
+    width: 40px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+
+.sub-profile1-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-profile1-link p{
+    width: 50%;
+}
+
+.sub-profile1-link span{
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+
+.sub-profile1-link:hover span{
+    transform: translateX(5px);
+}
+
+.sub-profile1-link:hover p{
+    font-weight: 600;
+}
+
+
+.sub-profile-wrapsignUp{
+    position: absolute;
+    top: 100%;
+    right: 35%;
+    width: 320px;
+    color: black; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+ 
+.sub-profile-wrapsignUp.open-profile{
+    max-height: 400px;
+}
+
+.sub-profile-signUp{
+    background: #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h4{
+    font-weight: 500px;
+}
+
+.user-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+
+.sub-profilesignUp-link img{
+    width: 40px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+
+.sub-profilesignUp-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-profilesignUp-link p{
+    width: 50%;
+}
+
+.sub-profilesignUp-link span{
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+
+.sub-profilesignUp-link:hover span{
+    transform: translateX(5px);
+}
+
+.sub-profilesignUp-link:hover p{
+    font-weight: 600;
+}
+
+.sub-profile-wrapContact{
+    position: absolute;
+    top: 100%;
+    right: 28%;
+    width: 200px;
+    color: black; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-profile-wrapContact.open-profile{
+    max-height: 400px;
+}
+
+.sub-profileContact{
+    background: #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h4{
+    font-weight: 500px;
+}
+
+.user-info img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-profileConatct hr{
+    border: 10px;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-profileContact-link img{
+    width: 40px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+
+.sub-profileContact-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-profileContact-link p{
+    width: 100%;
+}
+
+.sub-profileContact-link span{
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+
+.sub-profileContact-link:hover span{
+    transform: translateX(5px);
+}
+
+.sub-profileContact-link:hover p{
+    font-weight: 600;
+}
+
+.container{
+    position: absolute;
+    width: 45%;
+    height: 30%;
+    top: 50%;
+    left: 30%;
+    border: #1a1a1a;
+    background-color: aqua;
+    border-radius: 10px;
+    content: center;
+}
+
+
+.container img.deposit{
+  position: absolute;
+  height: 27%;
+  width: 9%;
+  left: 8%;
+  top: 33%;
+}
+
+.container a.Deposit{
+    position: relative;
+    height: 70%;
+    width: 14%;
+    left: 8%;
+    top: 35%;
+    font-weight:800;
+}
+
+.money img.loan{
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    left: 42%;
+    top: 60%;
+    border-radius: 70%;
+  }
+  
+.money a.Loan{
+      position: absolute;
+      height: 70%;
+      width: 14%;
+      left: 44%;
+      top: 69.8%;
+      font-weight:800;
+  }
+.transfers img.transfer{
+    position: absolute;
+    height: 8%;
+    width: 4%;
+    left: 54%;
+    top: 60%;
+    border-radius: 70%;
+  }
+  
+.transfers a.Transfer{
+      position: absolute;
+      height: 70%;
+      width: 14%;
+      left: 54%;
+      top: 69.8%;
+      font-weight:800;
+  }
+
+.guarantors img.Guarantor{
+    position: absolute;
+    height: 8%;
+    width: 4%;
+    left: 64%;
+    top: 60%;
+    border-radius: 70%;
+  }
+  
+.guarantors a.Guarantors{
+      position: absolute;
+      height: 70%;
+      width: 14%;
+      left: 64%;
+      top: 69.8%;
+      font-weight:800;
+  }
+
+
+
+
+
+a:hover{
+    color: antiquewhite;
+}
+
+h1.Transaction{
+    color: #fff;
+    position:relative;
+    left:22%
+ }
+
+
+
+
+ 

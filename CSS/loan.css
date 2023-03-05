@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.loanForm{
+    position: absolute;
+    top:38%;
+    left: 35%;
+    background-size: 70%;
+    background-color: black;
+    height: 30%;
+    width: 30%;
+    
+}
+
+.names{
+    position: absolute;
+    top:40%;
+    left:12%;
+    font-weight: 800;
+    color: wheat;
+
+}
+
+.form-group{
+    position: absolute;
+    top:10%;
+    left:12%;
+    font-weight: 800;
+    color: wheat;
+
+}
+
+.apply{
+    font-size: larger;
+    position: absolute;
+    top: 70%;
+    width: 30%;
+    left:35%;
+    border-radius: round;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+form:hover{
+    color: black;
+}   
